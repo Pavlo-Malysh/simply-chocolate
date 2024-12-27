@@ -1,0 +1,111 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #111;
+    background-color: #fafafa;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Hero */
+.logo {
+    font-style: bold;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: inherit;
+}
+
+.nav-item {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: inherit;
+}
+
+.nav-item:hover,
+.nav-item:focus {
+    color: #fd9222;
+}
+
+.hero-section {
+    background-color: #1e1823;
+}
+
+.hero-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.21;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+.button-active {
+    background-color: #fd9222;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 14px 40px;
+    min-width: 144px;
+    cursor: pointer;
+
+}
+
+.button-active:active {
+    background-color: #fcf1e0;
+    color: #fd9222;
+}
+
+.link-made {
+
+    font-weight: 600;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    padding: 14px 40px;
+}
+
+.link-made:active {
+    color: #fd9222;
+    border: 1px solid #fd9222;
+}
+
+.button-scroll {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: -0.03em;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Features */
+
+.benefits-section {
+    background: #1e1823;
+}
+
+.benefits-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+
+.benefits-text {
+    color: rgba(255, 255, 255, 0.7);
+}

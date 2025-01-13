@@ -1,9 +1,6 @@
 body {
     font-family: "Montserrat", sans-serif;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
     color: #111;
     background-color: #fafafa;
 }
@@ -108,4 +105,75 @@ a {
 
 .benefits-text {
     color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* MADE */
+
+.made {}
+
+.made-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+}
+
+.made-title span {
+    color: #fd9222;
+}
+
+.made-image {}
+
+.made-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+}
+
+.made-list {}
+
+.made-item {}
+
+.made-item-text {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+}
+
+/* LOVED */
+
+.loved {}
+
+.loved-title {}
+
+.loved-list {}
+
+.loved-item {}
+
+.loved-image {}
+
+.loved-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: center;
+}
+
+.loved-item-text {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(17, 17, 17, 0.7);
+}
+
+.loved-btn {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #111;
 }

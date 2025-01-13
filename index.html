@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
     <title>Simply Chocolate</title>
 </head>
@@ -60,83 +63,93 @@
         </ul>
     </section>
 
-    <section>
-        <h2>It all adds up to one exceptional taste sensation</h2>
-        <p>At Simply Chocolate, we believe that the secret to exceptional chocolate is in the details. From the sourcing
+    <section class="taste">
+        <h2 class="taste-title">It all adds up to one exceptional <span class="title-accent">taste</span> sensation</h2>
+        <p class="taste-text">At Simply Chocolate, we believe that the secret to exceptional chocolate is in the
+            details. From the sourcing
             of the
             finest ingredients to the careful crafting of each individual piece, every step of our process adds up to
             one
             exceptional taste sensation.</p>
-        <ul>
-            <li>
-                <img src="./images/taste/milk-chocolate.png" alt="Milk chocolate" width="206" height="160">
-                <h3>Milk chocolate</h3>
-            </li>
-            <li>
-                <img src="./images/taste/milk.png" alt="Milk" width="206" height="160">
-                <h3>Milk</h3>
-            </li>
-            <li>
-                <img src="./images/taste/nuts.png" alt="Nuts" width="206" height="160">
-                <h3>Nuts</h3>
-            </li>
-            <li>
-                <img src="./images/taste/semi-sweet-chocolate.png" alt="Semi - sweet chocolate" width="206"
+        <ul class="taste-list">
+            <li class="taste-item">
+                <img class="taste-image" src="./images/taste/milk-chocolate.png" alt="Milk chocolate" width="206"
                     height="160">
-                <h3>Semi - sweet chocolate</h3>
+                <h3 class="taste-subtitle">Milk chocolate</h3>
+            </li>
+            <li class="taste-item">
+                <img class="taste-image" src="./images/taste/milk.png" alt="Milk" width="206" height="160">
+                <h3 class="taste-subtitle">Milk</h3>
+            </li>
+            <li class="taste-item">
+                <img class="taste-image" src="./images/taste/nuts.png" alt="Nuts" width="206" height="160">
+                <h3 class="taste-subtitle">Nuts</h3>
+            </li>
+            <li class="taste-item">
+                <img class="taste-image" src="./images/taste/semi-sweet-chocolate.png" alt="Semi - sweet chocolate"
+                    width="206" height="160">
+                <h3 class="taste-subtitle">Semi - sweet chocolate</h3>
             </li>
         </ul>
     </section>
 
-    <section id="made">
-        <h2>How it's made?</h2>
-        <img src="./images/made/made-image.jpg" alt="liquid chokolate" width="600" height="400">
-        <h3>Try our chocolates today and discover the perfect balance of flavor</h3>
-        <ul>
-            <li>
-                <p>Heat the milk in a saucepan without bringing it to a boil. Add sugar and cocoa powder.</p>
+    <section id="made" class="made">
+        <h2 class="made-title">How it's <span>made?</span></h2>
+        <img class="made-image" src="./images/made/made-image.jpg" alt="liquid chokolate" width="600" height="400">
+        <h3 class="made-subtitle">Try our chocolates today and discover the perfect balance of flavor</h3>
+        <ul class="made-list">
+            <li class="made-item">
+                <p class="made-item-text">Heat the milk in a saucepan without bringing it to a boil. Add sugar and cocoa
+                    powder.</p>
             </li>
-            <li>
-                <p>At the same time, prepare a water bath. Melt the butter on it.</p>
+            <li class="made-item">
+                <p class="made-item-text">At the same time, prepare a water bath. Melt the butter on it.</p>
             </li>
-            <li>
-                <p>"Mix" the milk mixture and already liquid butter. Mix thoroughly with a silicone spatula so that the
+            <li class="made-item">
+                <p class="made-item-text">"Mix" the milk mixture and already liquid butter. Mix thoroughly with a
+                    silicone spatula so that the
                     mass becomes uniform and silky.</p>
             </li>
-            <li>
-                <p>Heat the mixture over low heat, letting it barely boil.</p>
+            <li class="made-item">
+                <p class="made-item-text">Heat the mixture over low heat, letting it barely boil.</p>
             </li>
-            <li>
-                <p>Pour the chocolate into special containers (can be replaced with ice molds). Allow to cool and
+            <li class="made-item">
+                <p class="made-item-text">Pour the chocolate into special containers (can be replaced with ice molds).
+                    Allow to cool and
                     harden.</p>
             </li>
         </ul>
     </section>
 
-    <section id="loved">
-        <h2>Chocolate is loved</h2>
-        <ul>
-            <li>
-                <img src="./images/chocolate-is-loved/viktoria-dobrzhanska.jpg" alt="Victoria Dobrzhanska" width="80"
-                    height="80">
-                <h3>Victoria Dobrzhanska</h3>
-                <p>I love this chocolate bar. Perfect combination of light crispy wafer, covered in a thin layer
+    <section id="loved" class="loved">
+        <h2 class="loved-title">Chocolate is loved</h2>
+        <ul class="loved-list">
+            <li class="loved-item">
+                <img class="loved-image" src="./images/chocolate-is-loved/viktoria-dobrzhanska.jpg"
+                    alt="Victoria Dobrzhanska" width="80" height="80">
+                <h3 class="loved-subtitle">Victoria Dobrzhanska</h3>
+                <p class="loved-item-text">I love this chocolate bar. Perfect combination of light crispy wafer, covered
+                    in a thin layer
                     chocolate.</p>
             </li>
-            <li>
-                <img src="./images/chocolate-is-loved/nazar-babenko.jpg" alt="Nazar Babenko" width="80" height="80">
-                <h3>Nazar Babenko</h3>
-                <p>This chocolate confection is a delight! A delight! The wafer is light and crisp, the hazelnut cream
+            <li class="loved-item">
+                <img class="loved-image" src="./images/chocolate-is-loved/nazar-babenko.jpg" alt="Nazar Babenko"
+                    width="80" height="80">
+                <h3 class="loved-subtitle">Nazar Babenko</h3>
+                <p class="loved-item-text">This chocolate confection is a delight! A delight! The wafer is light and
+                    crisp, the hazelnut cream
                     is smooth, and the chocolate is good.</p>
             </li>
-            <li>
-                <img src="./images/chocolate-is-loved/olena-kampusch.jpg" alt="Olena Kampusch" width="80" height="80">
-                <h3>Olena Kampusch</h3>
-                <p> Chocolate is a family favourite treat. Love the delicious smooth chocolate and the creaminess
+            <li class="loved-item">
+                <img class="loved-image" src="./images/chocolate-is-loved/olena-kampusch.jpg" alt="Olena Kampusch"
+                    width="80" height="80">
+                <h3 class="loved-subtitle">Olena Kampusch</h3>
+                <p class="loved-item-text"> Chocolate is a family favourite treat. Love the delicious smooth chocolate
+                    and the creaminess
                     inside. The wafer is soft but crunchy.</p>
             </li>
         </ul>
-        <button type="button">Leave a review</button>
+        <button class="loved-btn" type="button">Leave a review</button>
     </section>
 
     <footer>

@@ -33,6 +33,11 @@ button {
     cursor: pointer;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+}
+
 .container {
     width: 1168px;
     padding-left: 16px;
@@ -45,7 +50,6 @@ button {
 .header {}
 
 .logo {
-    font-style: bold;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.11;
@@ -150,7 +154,7 @@ button {
     background: none;
 }
 
-/* Features */
+/* Benefits */
 
 .benefits-section {
     background: #1e1823;
@@ -205,25 +209,40 @@ button {
 }
 
 .taste-text {
-    line-height: 1.28571;
+    line-height: 1.29;
     letter-spacing: -0.02em;
     text-align: center;
     max-width: 486px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
 }
 
-.taste-list {}
+.taste-list {
+    display: flex;
+    gap: 19px;
+    padding-bottom: 100px;
+}
 
-.taste-item {}
+.taste-item {
+    display: block;
+    border: 1px solid #fd9222;
+    border-radius: 15px;
+    padding: 28px;
+    width: calc((100% - 57px) / 4);
+    background-color: #fff;
+}
 
-.taste-image {}
+.taste-image {
+    margin-bottom: 36px;
+}
 
-.taste-subtitle {}
-
-
-
-
+.taste-subtitle {
+    font-weight: 600;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
 
 
 /* MADE */
@@ -237,22 +256,42 @@ button {
     letter-spacing: -0.03em;
     text-transform: uppercase;
     text-align: center;
-    color: #111;
+    margin-bottom: 50px;
 }
 
 .made-title span {
     color: #fd9222;
 }
 
-.made-image {}
+.made-image {
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-right: 20px;
+}
 
 .made-subtitle {
     font-weight: 600;
     font-size: 18px;
     line-height: 1.33;
+    margin-bottom: 28px;
 }
 
-.made-list {}
+.made-list {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.container-made {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.container-made-text {
+    border-radius: 15px;
+    background: #fff;
+    padding: 32px;
+}
 
 .made-item {}
 
@@ -262,11 +301,25 @@ button {
     letter-spacing: -0.02em;
 }
 
+.made-item-text::before {}
+
 /* LOVED */
 
 .loved {}
 
-.loved-title {}
+.loved-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.loved-title span {
+    color: #fd9222;
+}
 
 .loved-list {}
 

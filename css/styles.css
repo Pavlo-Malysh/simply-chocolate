@@ -198,32 +198,64 @@ img {
 
 .benefits-section {
     background: #1e1823;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .benefits-list {
-    padding-top: 50px;
-    padding-bottom: 50px;
     display: flex;
     gap: 70px;
     align-items: flex-start;
     justify-content: center;
+    padding-left: 36px;
+    padding-right: 36px;
 }
 
 .benefits-list-item {
-    width: calc((100% - 140px) / 2);
+    width: calc((100% - 140px) / 3);
+    position: relative;
+}
+
+.benefits-list-item:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    width: 1px;
+    height: 124px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -18px;
+}
+
+.benefits-icon {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 365px;
+    width: 62px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+.benefits-icon-item {
+    stroke: #FD9222;
+    fill: #fd9222;
 }
 
 .benefits-subtitle {
     font-weight: 600;
     font-size: 18px;
     color: #fff;
-    margin-bottom: 22px;
+    margin-bottom: 18px;
 }
 
 .benefits-text {
-    color: rgba(255, 255, 255, 0.7);
+    font-weight: 400;
+    font-size: 14px;
     letter-spacing: -0.02em;
-    max-width: 308px;
+    line-height: 1.285;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 /* TASTE */
